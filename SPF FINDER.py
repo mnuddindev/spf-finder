@@ -1,5 +1,4 @@
 import requests as r
-from bs4 import BeautifulSoup
 
 a = open("list.txt").read().split('\n')
 b = open("result.txt", "a+")
