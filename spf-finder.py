@@ -3,7 +3,7 @@ import requests as r
 a = open("list.txt").read().split('\n')
 b = open("result.txt", "a+")
 
-print("Script Started Successfully")
+print("Checking for SPF Record.......")
 
 for domain in a:
     if (domain == ""):
